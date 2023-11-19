@@ -208,6 +208,7 @@ $(document).ready(function () {
 
 
     /********************** RSVP **********************/
+    /**{result: 'success', data: '{"invite_code":["271117"],"extras":["3"],"name":["Matt Telesky"],"email":["mtelesky@gmail.com"]}'} */
     $('#rsvp-form').on('submit', function (e) {
         e.preventDefault();
         var data = $(this).serialize();
